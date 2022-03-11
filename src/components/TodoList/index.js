@@ -22,7 +22,7 @@ export default function TodoList() {
       addTodo({
         id: uuidv4(),
         name: todoName,
-        priority: priority,
+        priorities: priority,
         completed: false,
 
       })
